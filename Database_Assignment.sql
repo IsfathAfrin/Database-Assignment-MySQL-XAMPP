@@ -1,5 +1,6 @@
 #1.Create a database named class_one_assignment.
 CREATE DATABASE CLASS_ONE_ASSIGNMENT;
+
 USE CLASS_ONE_ASSIGNMENT;
 
 #2.create a table named customers.
