@@ -1,6 +1,5 @@
 #1.Create a database named class_one_assignment.
 CREATE DATABASE CLASS_ONE_ASSIGNMENT;
-
 USE CLASS_ONE_ASSIGNMENT;
 
 #2.Create a table named customers.
@@ -17,6 +16,7 @@ points INT(50) NOT NULL,
 PRIMARY KEY(id)
 );
 
+#select query
 SELECT * FROM customers;
 
 #3.Insert the following customer data:
