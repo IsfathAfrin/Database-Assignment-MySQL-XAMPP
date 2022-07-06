@@ -50,7 +50,7 @@ SELECT * FROM customers WHERE phone='';
 ALTER TABLE customers CHANGE COLUMN date_of_birth dob DATE;
 
 #10. Find the max point holder customer.
-SELECT MAX(points) AS points FROM customers ; 
+SELECT * FROM customers WHERE points = (SELECT MAX(points) FROM customers);  
 
 #11. Execute a query for the following scenario.
 SELECT id, first_name,last_name,points,
